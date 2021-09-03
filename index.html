@@ -5,36 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minion Speak</title>
-    <style>
-        textarea {
-            margin: 1rem;
-            height: 20vh;
-            width: 90%;
-            display: block;
-            padding: 1rem;
-        }
-
-        #output {
-            border: 1px solid black;
-            margin: 1rem;
-            height: 20vh;
-            width: 90%;
-            display: block;
-            padding: 1rem;
-            font-size: 1rem;;
-
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Talk to Minion<h1>
-
-    <textarea 
-    id="text-input" 
-    placeholder="Enter yur text"></textarea>
-    <button id="btn-translate">Translate</button>
-    <div>Your Output👇</div>
+    <div class="heading">
+        <h1>Talk Like A Minion<h1>
+    </div>
+    <br/>
+        <textarea 
+        id="text-input" 
+        placeholder="Enter your text"></textarea>
+        <button id="btn-translate" class="btn">Translate</button>
+        <button id="btn-text-generator" class="btn">Generate Random Text</button>
+        <br/>
+        <br/>
+    <h2>Your Translated Text 👇</h2>
     <div id="output"></div>
+
+    <img class="minion-img" src="images/minion.png" alt="">
+
+    <footer class="main-footer">
+      <div class="footer-content container">
+        <p class="footer-text">Made with ❤ by Nikhil <br></p>
+        
+        <div class="social">
+          <a href="https://www.linkedin.com/in/nikhil-sharma-nks/" target="_blank" ><i class="fab fa-linkedin fa-3x"></i></a>
+          <a href="https://github.com/nikhil-sharma-nks" target="_blank" ><i class="fab fa-github fa-3x"></i></a>
+          <a href="https://twitter.com/wannabe_nikhil" target="_blank" ><i class="fab fa-twitter fa-3x"></i></a>
+          <a href="https://www.facebook.com/nikhilshawarma/" target="_blank" > <i class="fab fa-facebook fa-3x"></i></a>
+         <a href="https://www.instagram.com/nikhil.shawarma/" target="_blank" ><i class="fab fa-instagram fa-3x"></i></a>
+        </div>
+      </div>
+    </footer>
     
     <script src="app.js" type="text/javascript"></script>
   </body>

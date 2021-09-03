@@ -1,0 +1,112 @@
+:root {
+  --primary-color: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+textarea {
+  margin: 1rem auto;
+  height: 20vh;
+  width: 50%;
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+#output {
+  border: 1px solid black;
+  margin: 1rem auto;
+  height: 20vh;
+  width: 50%;
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #fff;
+}
+
+#btn-translate {
+  background: var(--primary-color);
+  border: 1px solid black;
+}
+#btn-translate:hover {
+  background: #ffff6a;
+}
+
+#btn-text-generator {
+  background: grey transparent;
+  border: 1px solid black;
+  /* color: var(--primary-color); */
+}
+
+.minion-img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 60px;
+}
+
+.heading {
+  background: var(--primary-color);
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.main-footer {
+  background: linear-gradient(
+    to bottom,
+    #fff,
+    rgb(255, 238, 0)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(0, 0, 0);
+  background: var(--primary-color);
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.social .fab {
+  border-radius: 50%;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 0.5rem;
+}
+.social .fab:hover {
+  background-color: white;
+  cursor: pointer;
+}
