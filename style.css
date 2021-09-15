@@ -110,3 +110,63 @@ textarea {
   background-color: white;
   cursor: pointer;
 }
+
+@media (max-width: 540px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea {
+    margin: 1rem auto;
+    height: 20vh;
+    width: 80%;
+    border: 1px solid black;
+  }
+
+  #output {
+    height: 20vh;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    margin: 1rem auto;
+    width: 80%;
+  }
+
+  .minion-img {
+    display: none;
+  }
+
+  .heading {
+    background: var(--primary-color);
+    border-bottom: none;
+    background: linear-gradient(
+      to bottom,
+      rgb(255, 238, 0),
+      rgb(254, 255, 168)
+    );
+    /* height: 15vh; */
+  }
+
+  .main-footer {
+    background: linear-gradient(
+      to bottom,
+      rgb(254, 255, 168),
+      rgb(255, 238, 0)
+    );
+    height: 100%;
+    position: unset;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-text {
+    font-size: 25px;
+    margin-right: 40px;
+  }
+}
